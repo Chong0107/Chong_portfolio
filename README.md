@@ -1,6 +1,6 @@
 # Chong's Portfolio Website
 ![homePage](https://github.com/user-attachments/assets/d12108ff-8050-4ddc-8435-968d479256e6)
-Welcome to the Chong's Portfolio Website! This website is built using React.js. Below, you'll find instructions on how to set up and run the project on your local machine.
+Welcome to the Chong's Portfolio Website! This website is built using React.js and Chakra UI. Below, you'll find instructions on how to set up and run the project on your local machine.
 
 ## Getting Started
 
@@ -10,6 +10,7 @@ Before you begin, ensure you have the following installed on your machine:
 
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
+- [Chakra UI](https://v2.chakra-ui.com/)
 
 ### Installation
 
