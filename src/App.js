@@ -423,7 +423,7 @@ const App = () => {
                       providing a receipt to every customer
                     </ListItem>
                     <ListItem>
-                      Receive payment from the customer as well as manager
+                      Receive payment from the customer as well as manage
                       crowded customer to prevent congestion
                     </ListItem>
                   </UnorderedList>
@@ -464,7 +464,7 @@ const App = () => {
             fontWeight={"bold"}
             color={"white"}
           >
-            Project Dones
+            Projects Done
           </Heading>
         </Stack>
         <HStack
