@@ -42,7 +42,6 @@ import next from "../src/assets/next.png";
 import googleCloud from "../src/assets/googleCloud.png";
 import flask from "../src/assets/flask.png";
 import firebase from "../src/assets/firebase.png";
-import mySQL from "../src/assets/mysql.png";
 import oracle from "../src/assets/oracle.png";
 import mongoDB from "../src/assets/mongodb.webp";
 import premire from "../src/assets/pr.png";
@@ -52,6 +51,7 @@ import canva from "../src/assets/canva.png";
 import figma from "../src/assets/figma.png";
 import git from "../src/assets/git.png";
 import contact from "../src/assets/contactMe.gif";
+import microsoftSQL from "../src/assets/microsoftSQl.png";
 
 const scrollToSection = (href) => {
   if (href && href.startsWith("#")) {
@@ -353,7 +353,7 @@ const App = () => {
               <Image
                 src={silverlake}
                 alt="Silverlake"
-                borderRadius={{ base: "md", md: "lg" }}
+                width={{ base: "md", md: "lg" }}
               />
               <Stack mt="6" spacing="3">
                 <Heading fontSize={{ base: "14px", md: "20px" }} color="white">
@@ -388,6 +388,8 @@ const App = () => {
                 as="a"
                 href="https://www.silverlakeaxis.com/"
                 fontSize={{ base: "10px", md: "16px" }}
+                width={{ base: "80px", md: "115px" }}
+                height={{ base: "20px", md: "40px" }}
               >
                 Learn More
               </Button>
@@ -395,7 +397,8 @@ const App = () => {
           </Card>
           <Card
             maxH={{ base: "lg", md: "lg" }}
-            maxW={{ base: "lg", md: "md" }}
+            // maxW={{ base: "lg", md: "md" }}
+            // maxW={{ base: "xs", md: "sm" }}
             border="1px"
             borderColor="gray.500"
             bg="black"
@@ -409,7 +412,8 @@ const App = () => {
               <Image
                 src={familyStore}
                 alt="FamilyStore"
-                borderRadius={{ base: "md", md: "lg" }}
+                width={{ base: "200px", md: "400px" }}
+                height={{ base: "65px", md: "180px" }}
               />
               <Stack mt="6" spacing="3">
                 <Heading fontSize={{ base: "14px", md: "20px" }} color="white">
@@ -439,6 +443,8 @@ const App = () => {
                 as="a"
                 href="https://familystore.com.my/"
                 fontSize={{ base: "10px", md: "16px" }}
+                width={{ base: "80px", md: "115px" }}
+                height={{ base: "20px", md: "40px" }}
               >
                 Learn More
               </Button>
@@ -497,7 +503,9 @@ const App = () => {
                 src={iHealth}
                 alt="iHealth"
                 borderRadius={{ base: "md", md: "lg" }}
-                boxSize={{ base: "80px", md: "185px" }}
+                width={{ base: "90px", md: "250px" }}
+                height={{ base: "80px", md: "217px" }}
+                // boxSize={{ base: "80px", md: "185px" }}
                 display="block"
                 mx="auto"
               />
@@ -520,9 +528,11 @@ const App = () => {
                 ml="auto"
                 as="a"
                 href="https://github.com/Chong0107/iHealth-Application.git"
-                fontSize={{ base: "7px", md: "16px" }}
+                fontSize={{ base: "5px", md: "16px" }}
+                width={{ base: "80px", md: "155px" }}
+                height={{ base: "20px", md: "40px" }}
               >
-                Link to Github <ExternalLinkIcon ml={2} />
+                Link to Github <ExternalLinkIcon ml={{ base: 1, md: 2 }} />
               </Button>
             </CardFooter>
           </Card>
@@ -550,8 +560,10 @@ const App = () => {
               <Image
                 src={delivery}
                 alt="Delivery"
-                boxSize={{ base: "120px", md: "185px" }}
+                // boxSize={{ base: "120px", md: "185px" }}
                 borderRadius={{ base: "md", md: "lg" }}
+                width={{ base: "70px", md: "217px" }}
+                height={{ base: "70px", md: "217px" }}
                 display="block"
                 mx="auto" // Centering the image horizontally
               />
@@ -574,9 +586,11 @@ const App = () => {
                 ml="auto"
                 as="a"
                 href="https://github.com/Chong0107/Always-On-Time-Delivery-Project-DS-Assigment-.git"
-                fontSize={{ base: "10px", md: "16px" }}
+                fontSize={{ base: "8px", md: "16px" }}
+                width={{ base: "80px", md: "155px" }}
+                height={{ base: "20px", md: "40px" }}
               >
-                Link to Github <ExternalLinkIcon ml={2} />
+                Link to Github <ExternalLinkIcon ml={{ base: 1, md: 2 }}/>
               </Button>
             </CardFooter>
           </Card>
@@ -605,7 +619,9 @@ const App = () => {
                 src={happyFam}
                 alt="HappyFam"
                 borderRadius={{ base: "md", md: "lg" }}
-                boxSize={{ base: "120px", md: "185px" }}
+                width={{ base: "70px", md: "250px" }}
+                height={{ base: "105px", md: "217px" }}
+                // boxSize={{ base: "120px", md: "185px" }}
                 display="block"
                 mx="auto" // Centering the image horizontally
               />
@@ -629,8 +645,10 @@ const App = () => {
                 as="a"
                 href="https://family-event-planner-ggfxi15p5-rynndesmond.vercel.app/#about-us-section"
                 fontSize={{ base: "10px", md: "16px" }}
+                width={{ base: "80px", md: "155px" }}
+                height={{ base: "20px", md: "40px" }}
               >
-                Live URL <ExternalLinkIcon ml={2} />
+                Live URL <ExternalLinkIcon ml={{ base: 1, md: 2 }} />
               </Button>
             </CardFooter>
           </Card>
@@ -825,12 +843,12 @@ const App = () => {
                   className="enlarge-on-hover"
                 />
                 <Image
-                  src={mySQL}
-                  alt="MySQL"
+                  src={microsoftSQL}
+                  alt="MicrosoftSQL"
                   width={{ base: "50px", md: "80px" }}
                   display="block"
                   mx="auto"
-                  className="enlarge-on-hover"
+                  className="white-color enlarge-on-hover"
                 />
               </HStack>
               <HStack mt={5}>
