@@ -1,0 +1,64 @@
+/* App.css */
+.App {
+    background-color: black;
+  }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-out;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+.typing-animation {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 0.15em solid yellow; /* Cursor */
+  animation: typing 2s steps(43, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: yellow; }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate {
+  animation: rotate 3s linear infinite;
+}
+
+.white-color {
+  filter: invert(1) brightness(2);
+}
+
+.enlarge-on-hover {
+  transition: transform 0.3s ease-in-out;
+}
+
+.enlarge-on-hover:hover {
+  transform: scale(1.2);
+}
+
+
