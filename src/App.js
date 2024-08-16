@@ -275,7 +275,7 @@ const App = () => {
           <Image
             src={photo}
             alt="Description of the image"
-            boxSize={{ base: "250px", md: "500px" }}
+            boxSize={{ base: "200px", md: "500px" }}
             objectFit="cover"
             borderRadius="5%"
           />
@@ -396,9 +396,10 @@ const App = () => {
             </CardFooter>
           </Card>
           <Card
-            maxH={{ base: "lg", md: "lg" }}
+            // maxH={{ base: "lg", sm: "lg", md: "lg" }}
             // maxW={{ base: "lg", md: "md" }}
             // maxW={{ base: "xs", md: "sm" }}
+            height={{base: "475px", md: "480px"}}
             border="1px"
             borderColor="gray.500"
             bg="black"
@@ -412,8 +413,8 @@ const App = () => {
               <Image
                 src={familyStore}
                 alt="FamilyStore"
-                width={{ base: "200px", md: "400px" }}
-                height={{ base: "65px", md: "180px" }}
+                width={{ base: "150px", md: "400px" }}
+                height={{ base: "45px", md: "180px" }}
               />
               <Stack mt="6" spacing="3">
                 <Heading fontSize={{ base: "14px", md: "20px" }} color="white">
@@ -481,7 +482,8 @@ const App = () => {
           textAlign={"center"}
         >
           <Card
-            maxW={{ base: "xs", md: "sm" }}
+            maxW={{ base: "500px", md: "350px" }}
+            height={{ base: "405px", md: "450px" }}
             border="1px"
             borderColor="gray.500"
             bg="black"
@@ -503,8 +505,8 @@ const App = () => {
                 src={iHealth}
                 alt="iHealth"
                 borderRadius={{ base: "md", md: "lg" }}
-                width={{ base: "90px", md: "250px" }}
-                height={{ base: "80px", md: "217px" }}
+                width={{ base: "60px", md: "250px" }}
+                height={{ base: "75x", md: "217px" }}
                 // boxSize={{ base: "80px", md: "185px" }}
                 display="block"
                 mx="auto"
@@ -528,7 +530,7 @@ const App = () => {
                 ml="auto"
                 as="a"
                 href="https://github.com/Chong0107/iHealth-Application.git"
-                fontSize={{ base: "5px", md: "16px" }}
+                fontSize={{ base: "8px", md: "16px" }}
                 width={{ base: "80px", md: "155px" }}
                 height={{ base: "20px", md: "40px" }}
               >
@@ -538,8 +540,8 @@ const App = () => {
           </Card>
 
           <Card
-            maxH={{ base: "md", md: "lg" }}
-            maxW={{ base: "sm", md: "md" }}
+            maxH={{ base: "405px", md: "lg" }}
+            maxW={{ base: "100px", md: "md" }}
             border="1px"
             borderColor="gray.500"
             bg="black"
@@ -551,7 +553,7 @@ const App = () => {
           >
             <CardBody>
               <Heading
-                fontSize={{ base: "14px", md: "20px" }}
+                fontSize={{ base: "10px", md: "20px" }}
                 color="white"
                 mb={5}
               >
@@ -562,8 +564,8 @@ const App = () => {
                 alt="Delivery"
                 // boxSize={{ base: "120px", md: "185px" }}
                 borderRadius={{ base: "md", md: "lg" }}
-                width={{ base: "70px", md: "217px" }}
-                height={{ base: "70px", md: "217px" }}
+                width={{ base: "100px", md: "217px" }}
+                height={{ base: "50px", md: "217px" }}
                 display="block"
                 mx="auto" // Centering the image horizontally
               />
@@ -586,7 +588,7 @@ const App = () => {
                 ml="auto"
                 as="a"
                 href="https://github.com/Chong0107/Always-On-Time-Delivery-Project-DS-Assigment-.git"
-                fontSize={{ base: "8px", md: "16px" }}
+                fontSize={{ base: "6.5px", md: "16px" }}
                 width={{ base: "80px", md: "155px" }}
                 height={{ base: "20px", md: "40px" }}
               >
@@ -596,8 +598,10 @@ const App = () => {
           </Card>
 
           <Card
-            maxH={{ base: "md", md: "lg" }}
-            maxW={{ base: "xs", md: "md" }}
+            // maxH={{ base: "405px", md: "lg" }}
+            maxW={{ base: "100px", md: "md" }}
+            height={{ base: "405px", md: "450px" }}
+            // weight={{ base: "50px", md: "450px" }}
             border="1px"
             borderColor="gray.500"
             bg="black"
@@ -609,7 +613,7 @@ const App = () => {
           >
             <CardBody>
               <Heading
-                fontSize={{ base: "14px", md: "20px" }}
+                fontSize={{ base: "10px", md: "20px" }}
                 color="white"
                 mb={5}
               >
@@ -619,8 +623,8 @@ const App = () => {
                 src={happyFam}
                 alt="HappyFam"
                 borderRadius={{ base: "md", md: "lg" }}
-                width={{ base: "70px", md: "250px" }}
-                height={{ base: "105px", md: "217px" }}
+                width={{ base: "55px", md: "250px" }}
+                height={{ base: "55px", md: "217px" }}
                 // boxSize={{ base: "120px", md: "185px" }}
                 display="block"
                 mx="auto" // Centering the image horizontally
@@ -644,7 +648,7 @@ const App = () => {
                 ml="auto"
                 as="a"
                 href="https://family-event-planner-ggfxi15p5-rynndesmond.vercel.app/#about-us-section"
-                fontSize={{ base: "10px", md: "16px" }}
+                fontSize={{ base: "8px", md: "16px" }}
                 width={{ base: "80px", md: "155px" }}
                 height={{ base: "20px", md: "40px" }}
               >
